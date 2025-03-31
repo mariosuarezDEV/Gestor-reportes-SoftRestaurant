@@ -1,4 +1,5 @@
-
+from pymongo import MongoClient
+import datetime
 conexion = MongoClient("mongodb://localhost:27017/")
 db = conexion.ventas_florcatorce
 
